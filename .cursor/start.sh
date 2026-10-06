@@ -16,4 +16,4 @@ export DB_PASSWORD="${DB_PASSWORD:-postgres}"
 export SERVER_PORT="${SERVER_PORT:-8080}"
 
 cd /workspace
-exec ./mvnw spring-boot:run
+exec bash ./mvnw spring-boot:run
